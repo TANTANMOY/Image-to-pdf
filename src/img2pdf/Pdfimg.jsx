@@ -11,7 +11,7 @@ const Pdfimg = () => {
   console.log(photo);
 
   const pdfGenerate = () => {
-    var doc = new jsPDF('p', 'px', 'a4');
+    var doc = new jsPDF('p', 'pt', 'a4');
     var width = doc.internal.pageSize.getWidth();
     var height = doc.internal.pageSize.getHeight();
     var img = URL.createObjectURL(photo);
@@ -58,7 +58,7 @@ const Pdfimg = () => {
               name="photo"
               className="form-control"
               onChange={onChangephoto}
-              accept="image/png, image/png, image/jpeg"
+              accept="image/png, image/png, image/jpeg, image/jpg"
             />
           </div>
         </div>

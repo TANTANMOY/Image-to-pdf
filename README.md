@@ -1,7 +1,7 @@
 
 # Image to Pdf 
 
-From this React base webApp you can generate image to pdf file.
+React base image to pdf converter web app.
 
 
 
